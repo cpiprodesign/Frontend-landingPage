@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2? family = Raleway: ital, wght @ 0,100; 0,300; 0,400; 0,600; 0,700; 1,100 & display = swap");
+
+:root {
+  /* --background: linear-gradient(135deg,#667eea7e 0%, #764ba298 100%); */
+  --color-primary: #113274;
+  --color-secondary: #01c99c;
+  --color-texto: #45587b;
+  --boton-panding: 20px 40px;
+}
+body {
+  font-family: "Raleway", sans-serif;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 80px 0;
+  max-width: 1200px;
+}
+
+.hero {
+  height: 100vh;
+  background-image: url("../img/bg-banner-hero-top-blue.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  position: relative;
+  z-index: 1000;
+}
+.logotipo{
+    margin-top: 10px;
+    float: left;
+}
+.logo {
+   margin-top: '0'px;
+   font-size: 2rem;
+   font-weight: 700;
+    color: #fff;
+    color: var(--color-primary);
+    text-decoration: none;
+    margin-left: 30px;
+}
+.hero .container {
+  padding: 0;
+}
+.hero-container {
+  display: flex;
+  align-items: center;
+}
+/* codigo sin bootstrap */
+/* nav {
+  display: flex;
+  justify-content: flex-end;
+  height: 70px;
+  align-items: center;
+  font-weight: 700;
+  z-index: 1000;
+  
+} */
+.nav-item {
+  color: var(--color-primary);
+  text-decoration: none;
+  margin-right: 15px;
+  padding: 10px 15px;
+  font-weight: inherit;
+}
+.nav-item-cta {
+  border-radius: 40px;
+  border: 2px solid #01c99c;
+  color: val(--color-primary);
+  text-transform: uppercase;
+}
+/* .nav-item-cta a {
+    background-color: powderblue;
+    transition: background-color .5s;
+  } */
+
+nav a:hover {
+  background-color: #01c99c;
+}
+a:hover {
+  background-color: #01c99c;
+  color: #fff;
+  border-radius: 40px;
+  
+}
+
+.hero-img {
+  width: 80%;
+  margin-top: 60px;
+}
+.hero-text {
+  width: 80%;
+  margin-bottom: 50px;
+}
+.hero-title {
+  font-size: 3.2rem;
+  margin-bottom: 30px;
+  color: val(--color-texto);
+}
+.hero-subtitle {
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 15px 0;
+  text-align: justify;
+  line-height: 30px;
+  /* text-indent: 30pt; */
+}
+
+.hero-cta {
+  display: inline-block;
+  background: #fff;
+  padding: var(--boton-panding);
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 40px;
+  border: solid 2px #01c99c;
+  color: var(--color-primary);
+  margin-top: 20px;
+  font-weight: 600;
+}
+ /* historia */
+ .Nuestra-historia{
+     padding: 60px ;
+     margin-top: 80px;
+
+ }
+ .history {
+     display: flex;
+     justify-content: center;
+     
+
+ }
+ .historia-text {
+     padding: 30px;
+     
+ }
+ .historia-title {
+     margin-bottom: 20px;
+     text-transform: uppercase;
+     color: var(--color-primary);
+ }
+ .subtitulo-text {
+     margin-bottom: 30px;
+     color: var(--color-primary);
+ }
+ .historia-text-body{
+     font-size: 1rem;
+     font-weight: 600;
+     margin: 15px 0;
+     text-align: justify;
+     line-height: 30px;
+     color: var(--color-primary);
+
+ }
+ /* servicios */
+ .servicios{
+     text-align: center;
+ }
+ .title-servicios{
+     color:var(--color-primary);
+     text-transform: uppercase;
+     margin-bottom: 20px;
+ }
+ .title-subtitle {
+     color: var(--color-primary);
+ }
+ .service-items {
+    display: flex;
+    align-items:center;
+    margin: 40px auto;
+     /* margin-top: 40px a; */
+     justify-content: center;
+    padding: 0 60px;
+     /* flex-direction: row; */
+ }
+ .item-service{
+    margin-right: auto;
+    text-align: center;
+ }
+ .ico-service{
+     margin-bottom: 30px;
+ }
+ .title-service-item{
+    color: var(--color-primary);
+    margin-bottom: 20px;
+ }
+ .service-text{
+    color: var(--color-primary);
+    text-align: center;
+ }
+
+ /* empezar */
+ .card-iniciar{
+     display: flex;
+     align-items: center;
+     padding: 0 30px;
+     justify-content: center;
+     background: rgb(250, 247, 246);
+     width: 100%;
+     height: 300px;
+     border-radius: 4px;
+     border:solid 1px #f4f5f8
+ }
+ .titulo-card{
+    color: var(--color-primary);
+    margin-bottom: 20px;
+ }
+ .button{
+     margin: 0 auto;
+ }
+ .descripcion-card{
+    color:var(--color-primary);   
+ }
+
+ .btn-cta {
+    display: inline-block;
+    background :var(--color-secondary);
+    padding: var(--boton-panding);
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 40px;
+    
+    /* border: solid 2px #01c99c; */
+    color: #fff;
+    margin-top: 20px;
+    font-weight: 600;
+ }
